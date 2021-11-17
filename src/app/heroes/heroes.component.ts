@@ -16,5 +16,5 @@ export class HeroesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  obtenerFrutas() {}
+  obtenerFrutas() { }
 }
