@@ -6,15 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heroes.component.scss']
 })
 export class HeroesComponent implements OnInit {
+
   hero = 'Windstorm';
-  frutas = ['banana','pera','limon'];
-  numero = 1000;
-  persona = {nombre: 'Lucas', apellido: 'Quintana'};
   
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
   }
 
-  obtenerFrutas() { }
 }
